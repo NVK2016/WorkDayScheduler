@@ -41,10 +41,10 @@ body {
     border-top: 1px dashed #000000;
   }
 
-  /* Conditional Background Color Changed  */
+  /* Conditional Background it puColor Changed  */
   .past {
     background-color: #d3d3d3;
-    color: black;
+    color: white;
   }
   
   .present {
