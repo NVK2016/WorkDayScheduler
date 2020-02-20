@@ -1,4 +1,7 @@
 $(document).ready(function() {
+    // display current day on page
+    $("#currentDay").text(moment().format("dddd, MMMM Do YYYY,   h:mm:ss a"));
+
     // listen for save button clicks
     $(".saveBtn").on("click", function() {
       // get nearby values
